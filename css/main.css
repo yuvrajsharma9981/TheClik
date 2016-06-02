@@ -1,0 +1,102 @@
+.logo {
+    //background-image: url("../img/logo.png");
+    
+    
+    color: white;
+    font-family: Cuprum;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.navigator{
+    margin-top: 10px;
+    height: 50x;
+    width: 100%;
+    font-family: Cuprum;
+    position:absolute;
+    top:150px;
+}
+
+.wrapper{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;           
+
+}
+body{
+    background-color: #FF8000;
+    font-family:Cuprum;
+    font-size:20px;
+    color: white;
+    text-align: center;
+
+}
+
+.styled-button-5 {
+    background-color:#4a77d4;
+    color:#fff;
+    font-family:Cuprum;
+    font-size:18px;
+    line-height:30px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border:0;
+    text-shadow:#C17C3A 0 -1px 0;
+    width:200px;
+    height:32px;
+    text-align: center;
+    
+}                
+
+.exit-btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.exit-btn { 
+    border: none;
+    font-family: Cuprum;
+    font-size: 14px;
+    color: #4a77d4;
+    background: none;
+    cursor: pointer;
+    
+    display: inline-block;
+    margin: 0em 0em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: absolute;
+    left: 91%;
+    top: 2%;
+}
+.exit-btn-2 {
+    padding: -2px 0px -2px 30px;
+    border-radius: 10px;
+}
+.exit-btn-2 {
+    background-color: #4a77d4;
+    color: #fff;
+}
+.exit-btn-2:before {
+    position: relative;
+    
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 30px;
+}
+.exit-btn-2:before {
+    border-right: 2px solid rgba(255,255,255,0.5);
+    content: "\e017";
+    font-family: 'Glyphicons Halflings';
+}
